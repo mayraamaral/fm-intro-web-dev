@@ -21,4 +21,6 @@ Attributes are related to tags. It gives more information about the "behavior" o
 ## Elements
 Elements are instances of tags. As example, we have seven input tags (with different attributes) by the line 62, so we have seven elements of the input tag.
 ## Classes
-Think in a class like a label. You're labeling things so you can access then more easy.
+Think in a class like a label. You're labeling things so you can access then more easy.  
+*Classes in general are more generic than IDs*  
+*One element can have multiple classes but can't have multiple IDs*
