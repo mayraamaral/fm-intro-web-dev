@@ -13,4 +13,4 @@ Following our example,
 h1 { color: red; }  
 color is called the **property**, because is something that will be applied.
 ## Centering tables
-I had some problem with centering table and found some usable content to help me, so I will put it here then I will can access another time. (Here's the link)[https://www.granneman.com/webdev/coding/css/centertables]
+I had some problem with centering table and found some usable content to help me, so I will put it here then I will can access another time. [Here's the link](https://www.granneman.com/webdev/coding/css/centertables)
