@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+.title-example {
+    color: red;
+    font-weight: normal;
+    text-decoration: overline;
+}
+.post{
+    border: dotted black;
+}
