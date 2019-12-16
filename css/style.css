@@ -15,5 +15,5 @@ table {
     text-decoration: overline;
 }
 .post{
-    border: dotted black;
+    border: 10px dotted rgb(71, 161, 245);
 }
