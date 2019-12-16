@@ -17,3 +17,28 @@ table {
 .post{
     border: 10px dotted rgb(71, 161, 245);
 }
+.hover-ex {
+    background: cyan;
+    width: 200px;
+    height: 60px;
+    margin: auto;
+}
+.hover-ex:hover {
+    background: red;
+    color: white;
+    margin: auto;
+    width: 230px;
+    height: 80px;
+}
+.list-example {
+    color: blue;
+}
+.list-example:first-child {
+    color: red;
+}
+.list-example:last-child {
+    color: purple;
+}
+.list-example-2:nth-child(2) {
+    color: blueviolet;
+}
