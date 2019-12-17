@@ -1,28 +1,44 @@
+* {
+    box-sizing: border-box;
+}
 .center {
-    margin-left:auto; 
-    margin-right:auto;
-  }
+    margin: auto;
+}
 
 body {
     text-align: center;
 }
+
+/* TABELA */
+
 table {
-    text-align: center;
+    border: 2px dashed grey;
+    /* it excludes the double border of the table: */
+    border-collapse: collapse;
 }
+td {
+    border: 2px dashed grey;
+}
+
 .title-example {
     color: red;
     font-weight: normal;
     text-decoration: overline;
 }
+
 .post{
     border: 10px dotted rgb(71, 161, 245);
 }
+
+/* HOVER EXAMPLE */
+
 .hover-ex {
     background: cyan;
     width: 200px;
     height: 60px;
     margin: auto;
 }
+
 .hover-ex:hover {
     background: red;
     color: white;
@@ -30,15 +46,110 @@ table {
     width: 230px;
     height: 80px;
 }
+
+/* LIST EXAMPLE - SELECTING BY ITEMS */
+
 .list-example {
     color: blue;
 }
+
 .list-example:first-child {
     color: red;
 }
+
 .list-example:last-child {
     color: purple;
 }
+
 .list-example-2:nth-child(2) {
     color: blueviolet;
+}
+
+/* BOX EXAMPLES */
+
+.box-1 {
+    border: 1px solid black;
+    color: white;
+    background-color: blue;
+    height: 150px;
+    width: 300px;
+}
+
+.box-2 {
+    border: 1px solid black;
+    color: white;
+    background-color: red;
+    height: 100px;
+    width: 300px;
+}
+
+.box-3 {
+    border: 1px solid black;
+    color: white;
+    background-color: green;
+    height: 200px;
+    width: 100px;
+}
+
+/* CONTAINERS */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* 
+     * width: 100%;
+     * border: 1px solid black;
+     */
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.ai-fe {
+    align-items: flex-end;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-stretch {
+    align-items: stretch;
+    height: 100px;
+}
+
+.no-height {
+    height: inherit;
+}
+
+/* BOX 2 */
+
+.box2-1 {
+    background-color: khaki;
+    width: 100px;
+}
+
+.box2-2 {
+    background-color: palevioletred;
+    width: 100px;
+}
+
+.box2-3 {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 200px;
+}
+
+.flex-container2 {
+    display: flex;
+    align-items: stretch;
 }

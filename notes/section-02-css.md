@@ -29,4 +29,10 @@ For using border-box, all you have to do is:
     box-sizing: border-box;
 }  
   
-The selector * selects everything in the page, so you will be able to turn every box-sizing in the page to act as boder-box.
+The selector * selects everything in the page, so you will be able to turn every box-sizing in the page to act as boder-box.  
+  
+## Flex model
+Flex is a way of displaying blocks that you can set in your CSS. It allows you to deal with the children tags of the tag you setted as flex. It is also good for responsive websites. It gives you the power to you such possibilities as **align-items**, **justify-content**, **flex-direction**.  
+  
+### Align items and justify content
+Align items allows you to deal with the content vertically and justify contenet deals with right and left (horizontally).
